@@ -1,0 +1,35 @@
+body {
+    font-family: "Raleway", sans-serif;
+
+}
+
+#Hero-Section {
+    background-image: url("../img/portada\ .jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Mis-trabajos .image-top {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #0000
+}
+
+.navbar-brand img{
+    height: 35px;
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    #Contacto form label {
+font-weight: 400;
+    }
+
+.navbar-brand{
+width: 100px;
+    }
+
+}
